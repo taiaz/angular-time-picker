@@ -1,0 +1,20 @@
+<div class="container">
+  <a
+    href="https://furetechnews.com/best-libraries-for-angular-time-picker-in-angular-14/"
+    target="_blank"
+  >
+    Best libraries for Angular time picker in Angular?
+  </a>
+  <br /><br />
+  <mat-form-field appearance="outline">
+    <mat-label>Input type time</mat-label>
+    <input type="time" matInput name="week" min="09:00" max="18:00" />
+  </mat-form-field>
+  <br />
+
+  <mat-form-field appearance="fill">
+    <mat-label>TIMEPICKER</mat-label>
+    <input matInput [ngxMatTimepicker]="picker" />
+    <ngx-mat-timepicker #picker></ngx-mat-timepicker>
+  </mat-form-field>
+</div>
